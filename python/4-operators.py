@@ -32,5 +32,5 @@ print(a^b); # if both have different bits
 
 # ~a=-(a+1)
 print(~a);
-print(a<<1) # Left shift
-print(a>>1) # Right shift
+print(a<<1); # Left shift
+print(a>>1); # Right shift
