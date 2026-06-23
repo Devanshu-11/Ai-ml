@@ -3,7 +3,7 @@ def greet(*args):
     for name in args:
         print(f"Hello, {name}");
 
-greet("Alice", "Bob", "Charlie");
+greet("Alice","Bob","Charlie");
 
 # **kwargs-collects extra keyword arguments into a dictionary and it lets us to pass the key value pairs like dictionary
 def display_info(**kwargs):
