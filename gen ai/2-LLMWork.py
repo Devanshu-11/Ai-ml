@@ -5,7 +5,7 @@
 
 # Steps-
 # 1- Suppose we have given the text to LLM,it converts the data into multiple chunks or pieces Like-Who is President of India- LLM create into list of string-"Who","is","President","of","India" and these are tokens
-# 2- we give each token,a tokenId based on token No assigned from dictionary and we give this to LLM
+# 2- we give each token,a tokenId based on token Number assigned from dictionary and we give this to LLM
 # Process that numbers and based on that numbers,it will generate some numbers to us and mapped to the dictionary and send user by combine it and this is called tokenization
 
 # create the tokens
