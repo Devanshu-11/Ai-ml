@@ -14,9 +14,12 @@ text="Who is the Pm of India";
 # library that provides tokenizers used by certain OpenAI models
 import tiktoken;
 tokenizer=tiktoken.encoding_for_model(model_name='gpt-4');
+
+# encoding the text into tokenId
 tokenIds=tokenizer.encode(text);
 print(tokenIds);
 
-ResultIds=[791, 393, 76, 315, 6890, 374, 67432, 35489];
+ResultIds=[791,393,76,315,6890,374,67432,35489];
+# decode tokenId into text
 result=tokenizer.decode(ResultIds);
 print(result);
